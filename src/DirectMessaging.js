@@ -41,8 +41,8 @@ const DirectMessaging = () => {
             height='100vh'
             userName='adizxv0'
             // Accessing the stored environment variables in .env file
-            userSecret={process.env.CHAT_APP_USER_SECRET}
-            projectID={process.env.CHAT_APP_PROJECT_ID}
+            userSecret='1q2w3e4r5t'
+            projectID='563a8e44-4a21-48a2-b4a8-181d861d6f13'
             displayNewChatInterface={(credentials) => displayChatInterface(credentials)}
             />
     )
